@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  font-size: 10px;
+}
+
+header {
+  background-color: #fb4912;
+}
+header h1 {
+  color: #b6cf8d;
+  font-size: 40px;
+  text-align: center;
+}
+
+.mainMenu {
+  background-color: #60aabd;
+}
+.mainMenu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.mainMenu ul a {
+  color: #1b1381;
+  font-size: 3rem;
+}
+.mainMenu ul a:hover {
+  color: #b6cf8d;
+}
+
+.sectionMain {
+  background-color: #0e2031;
+  color: #4085df;
+  display: grid;
+  grid-template-areas: "titulo menuSeccion" "descripcion  imagenDetalle" "menuDetalle  menuDetalle";
+  margin-top: 10%;
+}
+.sectionMain .titDet {
+  grid-area: titulo;
+  margin-top: 3%;
+  margin-left: 5%;
+  color: #b6cf8d;
+}
+.sectionMain .subMenu {
+  grid-area: menuSeccion;
+  margin-top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.sectionMain .subMenu li {
+  padding: irem;
+}
+.sectionMain .subMenu li a {
+  color: #b6cf8d;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sectionMain .subMenu li a:hover {
+  color: #fb4912;
+}
+.sectionMain .dsp p {
+  text-align: left;
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.sectionMain .imagenDsp {
+  grid-area: imagenDetalle;
+}
+.sectionMain .menuDet {
+  grid-area: menuDetalle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #b6cf8d;
+  font-size: 2.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}/*# sourceMappingURL=main.css.map */
